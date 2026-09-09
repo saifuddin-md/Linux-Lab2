@@ -2,7 +2,7 @@
 
 A beginner-friendly reference for **Linux administration, troubleshooting, networking, storage, security, and DevOps**.
 
-## 🔎 Advanced File & Text Commands
+## 1. Advanced File & Text Commands
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -29,7 +29,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## ⚙️ Advanced Process Management
+## 2. Advanced Process Management
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -55,7 +55,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🧠 Memory & CPU
+## 3. Memory & CPU
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -76,7 +76,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 💾 Advanced Disk Commands
+## 4. Advanced Disk Commands
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -101,7 +101,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🌐 Advanced Networking
+## 5. Advanced Networking
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -131,7 +131,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🔥 Firewall
+## 6. Firewall
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -148,7 +148,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🔐 SSH & Remote Administration
+## 7. SSH & Remote Administration
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -168,7 +168,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 📦 Package Management
+## 8. Package Management
 
 ### Debian / Ubuntu
 
@@ -198,7 +198,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🛠️ Systemd & Services
+## 9. Systemd & Services
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -221,7 +221,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 👤 Users & Groups
+## 10. Users & Groups
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -244,7 +244,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 📋 Logs & Troubleshooting
+## 11. Logs & Troubleshooting
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -266,7 +266,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🕐 Date, Time & Scheduling
+## 12. Date, Time & Scheduling
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -286,7 +286,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🐳 Docker Basics
+## 13. Docker Basics
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -312,7 +312,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 📦 Compression & Archiving
+## 14. Compression & Archiving
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -331,7 +331,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🔑 Permissions & Ownership
+## 15. Permissions & Ownership
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -352,7 +352,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🔧 Useful System Information
+## 16. Useful System Information
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -374,7 +374,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🧰 Shell & Command Utilities
+## 17. Shell & Command Utilities
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -396,7 +396,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## 🚨 Important Safety Notes
+## 18. Important Safety Notes
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -413,7 +413,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 
 ---
 
-## ⭐ Quick Daily Commands
+## 19. Quick Daily Commands
 
 | **Command** | **Easy meaning** |
 | ----------- | ---------------- |
@@ -437,3 +437,9 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 | `ip addr` | Check IP addresses |
 | `systemctl status service` | Check a service |
 | `journalctl -xe` | Check recent system errors |
+
+---
+
+## 🐧 Happy Linux Learning!
+
+**Linux · SysAdmin · Networking · DevOps**
