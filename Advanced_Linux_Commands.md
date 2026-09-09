@@ -1,5 +1,7 @@
 # 🐧 Advanced Linux Commands Reference
 
+A beginner-friendly reference for **Linux administration, troubleshooting, networking, storage, security, and DevOps**.
+
 ## 🔎 Advanced File & Text Commands
 
 | **Command** | **Easy meaning** |
