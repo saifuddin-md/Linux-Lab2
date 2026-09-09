@@ -18,8 +18,8 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 - [12. Date, Time & Scheduling](#12-date-time--scheduling)
 - [13. Docker Basics](#13-docker-basics)
 - [14. Compression & Archiving](#14-Compression--Archiving)
-- [15. Easy Way to Remember](#15-easy-way-to-remember)
-- [16. Quick Learning Path](#16-quick-learning-path)
+- [15. Permissions & Ownership](#15-Permissions--Ownership)
+- [16. Useful System Information](#16-Useful-System-Information)
 - [17. Safety Tips](#17-safety-tips)
 - [18. Safe Practice Commands](#18-safe-practice-commands)
 
