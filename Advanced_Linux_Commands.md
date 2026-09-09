@@ -22,7 +22,7 @@ A beginner-friendly reference for **Linux administration, troubleshooting, netwo
 - [16. Useful System Information](#16-Useful-System-Information)
 - [17. Shell & Command Utilities](#17-Shell--Command-Utilities)
 - [18. Important Safety Notes](#18-Important-Safety-Notes).
-- [19. Quick Daily Commands](#18-Quick-Daily-Commands)
+- [19. Quick Daily Commands](#19-Quick-Daily-Commands)
 
 ## 1. Advanced File & Text Commands
 
