@@ -2,6 +2,27 @@
 
 A beginner-friendly reference for **Linux administration, troubleshooting, networking, storage, security, and DevOps**.
 
+## 📚 Table of Contents
+
+- [1. Advanced File & Text Commands](#1-advanced-file--text-commands)
+- [2. Advanced Process Management](#2-advanced-process-management)
+- [3. Memory & CPU](#3-memory--cpu)
+- [4. Advanced Disk Commands](#4-advanced-disk-commands)
+- [5. Advanced Networking](#5-advanced-networking)
+- [6. Firewall](#6-firewall)
+- [7. SSH & Remote Administration](#7-ssh--remote-administration)
+- [8. Package Management](#8-package-management)
+- [9. Systemd & Services](#9-systemd--services)
+- [10. Users & Groups](#10-users--groups)
+- [11. Advanced Troubleshooting](#11-advanced-troubleshooting)
+- [12. Date, Time & Scheduling](#12-date-time--scheduling)
+- [13. Docker Basics](#13-docker-basics)
+- [14. Commands to Learn First](#14-commands-to-learn-first)
+- [15. Easy Way to Remember](#15-easy-way-to-remember)
+- [16. Quick Learning Path](#16-quick-learning-path)
+- [17. Safety Tips](#17-safety-tips)
+- [18. Safe Practice Commands](#18-safe-practice-commands)
+
 ## 1. Advanced File & Text Commands
 
 | **Command** | **Easy meaning** |
