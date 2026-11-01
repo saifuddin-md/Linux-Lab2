@@ -1,6 +1,6 @@
-# AWS EC2 Deployment Guide – Laravel Employee Management System
+# Deploy Laravel App on AWS EC2
 
-## 1. Project Architecture
+## 1). Project Architecture
 
 The Laravel Employee Management System will be deployed directly on an AWS EC2 instance.
 
@@ -12,7 +12,7 @@ The Laravel Employee Management System will be deployed directly on an AWS EC2 i
 - Laravel – Application Framework
 - AWS RDS – MySQL Database
 
-## 2. Step-by-Step Deployment
+## 2). Step-by-Step Deployment
 
 ### Step 1: Launch EC2 Instance
 
@@ -208,26 +208,8 @@ http://YOUR_EC2_PUBLIC_IP
 
 You should now see your Laravel Employee Management System homepage.
 
-## 3. Final Deployment Checklist
 
-- [ ] Launch AWS EC2 instance.
-- [ ] Configure Ubuntu 22.04 LTS.
-- [ ] Configure EC2 security group.
-- [ ] Create AWS RDS MySQL database.
-- [ ] Connect to EC2 through SSH.
-- [ ] Install Nginx.
-- [ ] Install PHP and PHP-FPM.
-- [ ] Install Composer and Git.
-- [ ] Configure Nginx.
-- [ ] Deploy Laravel application.
-- [ ] Install Composer dependencies.
-- [ ] Configure `.env` database credentials.
-- [ ] Run database migrations.
-- [ ] Configure Laravel permissions.
-- [ ] Restart Nginx and PHP-FPM.
-- [ ] Access the application through the EC2 public IP.
-
-## 4. Important Production Recommendations
+## 3). Important Production Recommendations
 
 1. Set `APP_DEBUG=false` in production.
 2. Use HTTPS with an SSL certificate.
@@ -238,3 +220,61 @@ You should now see your Laravel Employee Management System homepage.
 7. Never use `chmod 777` for Laravel permissions.
 
 **Note:** This is a cleaned-up, readable version based on the uploaded screenshot. Some original terminal commands and configuration text were too small to read, so the commands above are reconstructed deployment examples rather than an exact transcription.
+
+
+-------------------------------------------------------------------
+
+## Laravel – Composer, Artisan & Migration
+
+### 1️⃣ What is Composer?
+
+- Composer is like npm (for Node.js) or pip (for Python).
+- It downloads, installs, and autoloads libraries your project depends on.
+
+### In Laravel:
+
+- Used to install Laravel itself and all packages.
+- Manages versions and updates.
+
+
+### 2️⃣ What is Artisan?
+
+- Laravel's built-in command-line tool.
+- Helps automate tasks: create controllers, run migrations, clear cache, etc.
+- You run it using:
+
+```bash
+php artisan <command>
+```
+
+### Examples of Artisan
+
+```bash
+php artisan make:controller EmployeeController
+php artisan make:model Employee
+php artisan migrate
+php artisan cache:clear
+```
+
+
+### 3️⃣ What is a Migration?
+
+- A migration is a PHP file that contains instructions to change the database schema:
+  - Create tables
+  - Add columns
+  - Modify indexes, etc.
+- Think of it as version control for your database.
+
+## 4️⃣ php artisan migrate
+
+This command tells Laravel to:
+
+- ✅ Connect to your database (using credentials from `.env`).
+- ✅ Check which migrations in `database/migrations/` haven't been run yet.
+- ✅ Run the `up()` method in each new migration file.
+- ✅ Update the migrations table in your DB to record that those migrations ran.
+
+### Example:
+
+- Creates tables.
+- Adds columns.
