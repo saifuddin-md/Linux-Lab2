@@ -2,7 +2,7 @@
 
 ## 1). Project Architecture
 
-The Laravel Employee Management System will be deployed directly on an AWS EC2 instance.
+The Laravel Application will be deployed directly on an AWS EC2 instance.
 
 **Technology Stack:**
 
@@ -46,14 +46,14 @@ sudo apt upgrade -y
 sudo apt install nginx git composer unzip curl -y
 ```
 
-Install PHP and the required PHP extensions.
+Install **PHP** and the required **PHP extensions**.
 
 ```bash
 sudo apt install php-fpm php-cli php-mysql php-xml \
 php-mbstring php-curl php-zip php-bcmath -y
 ```
 
-PHP 8.2 is recommended if supported by your Laravel application. PHP 8.1 is another option mentioned in the original guide.
+**Notes:** PHP 8.2 is recommended if supported by your Laravel application. PHP 8.1 is another option mentioned in the original guide.
 
 ### Step 4: Prepare Nginx Configuration
 
@@ -269,10 +269,10 @@ php artisan cache:clear
 
 This command tells Laravel to:
 
-- ✅ Connect to your database (using credentials from `.env`).
-- ✅ Check which migrations in `database/migrations/` haven't been run yet.
-- ✅ Run the `up()` method in each new migration file.
-- ✅ Update the migrations table in your DB to record that those migrations ran.
+- Connect to your database (using credentials from `.env`).
+- Check which migrations in `database/migrations/` haven't been run yet.
+- Run the `up()` method in each new migration file.
+- Update the migrations table in your DB to record that those migrations ran.
 
 ### Example:
 
