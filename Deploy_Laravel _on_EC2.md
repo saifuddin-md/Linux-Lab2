@@ -226,7 +226,7 @@ You should now see your Laravel Employee Management System homepage.
 
 ## Laravel – Composer, Artisan & Migration
 
-### 1️⃣ What is Composer?
+### What is Composer?
 
 - Composer is like npm (for Node.js) or pip (for Python).
 - It downloads, installs, and autoloads libraries your project depends on.
@@ -237,7 +237,7 @@ You should now see your Laravel Employee Management System homepage.
 - Manages versions and updates.
 
 
-### 2️⃣ What is Artisan?
+### What is Artisan?
 
 - Laravel's built-in command-line tool.
 - Helps automate tasks: create controllers, run migrations, clear cache, etc.
@@ -257,7 +257,7 @@ php artisan cache:clear
 ```
 
 
-### 3️⃣ What is a Migration?
+### What is a Migration?
 
 - A migration is a PHP file that contains instructions to change the database schema:
   - Create tables
@@ -265,7 +265,7 @@ php artisan cache:clear
   - Modify indexes, etc.
 - Think of it as version control for your database.
 
-## 4️⃣ php artisan migrate
+## php artisan migrate
 
 This command tells Laravel to:
 
